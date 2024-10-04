@@ -25,7 +25,7 @@
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build"
   },
-  "homepage" : "https://ghadaamakrane.github.io/Ghada_Amakrane_portfolio",
+  "homepage" : "https://gamakrane.github.io/",
   "eslintConfig": {
     "extends": [
       "react-app",
