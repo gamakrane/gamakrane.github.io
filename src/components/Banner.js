@@ -6,7 +6,7 @@ import headerimage from "../assets/img/header-img.png";
 export const Banner = () =>{
     const [LoopNum,setLoopNum]=useState(0);
     const [isDeleting, setIsDeletting] = useState(false);
-    const toRotate = ["A","B","C"];
+    const toRotate = ["Innovation Seeker","Tech enthousiast","Aspiring Technologist"];
     const [text, setText] = useState('');
     const [delta, setDelta]= useState(300-Math.random()*100);
     const period = 2000;
@@ -44,8 +44,11 @@ export const Banner = () =>{
             <Row className="align-items-center">
                 <Col xs={12} md={6} xl={7}>
                     <span className="tagline"> Welcome to my portfolio</span>
-                    <h1>{'Hi I am xxxxx '}<span className="wrap">{text}</span></h1>
-                    <p>gggggggggggggggggggg</p>
+                    <h1>{'Hi I am Ghada AMAKRANE , '}<span className="wrap">{text}</span></h1>
+                    <p> As a double diplomation engineering student at AIAC and École Centrale Méditérannée , I want to specialize in IT project management. 
+                        My academic journey has equipped me with technical engineering skills and knowledge of project management methodologies.
+                        Passionate about digital transformation, I am seeking an internship to contribute to the planning, coordination,
+                        and delivery of innovative IT solutions within a dynamic team.</p>
                     <button onClick={() => console.log('clicked')}>CV<ArrowRightCircle size={24}></ArrowRightCircle></button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
