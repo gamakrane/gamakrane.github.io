@@ -44,7 +44,7 @@ export const Banner = () =>{
             <Row className="align-items-center">
                 <Col xs={12} md={6} xl={7}>
                     <span className="tagline"> Welcome to my portfolio</span>
-                    <h1>{'Hi I am Ghada AMAKRANE 1111 , '}<span className="wrap">{text}</span></h1>
+                    <h1>{'Hi I am Ghada AMAKRANE, '}<span className="wrap">{text}</span></h1>
                     <p> As a double diplomation engineering student at AIAC and École Centrale Méditérannée , I want to specialize in IT project management. 
                         My academic journey has equipped me with technical engineering skills and knowledge of project management methodologies.
                         Passionate about digital transformation, I am seeking an internship to contribute to the planning, coordination,
