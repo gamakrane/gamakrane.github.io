@@ -1,4 +1,4 @@
-import { isVisible } from "@testing-library/user-event/dist/utils";
+//import { isVisible } from "@testing-library/user-event/dist/utils";
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 // import 'animate.css';
 import { ProjectCard } from "./ProjectCard";
@@ -82,7 +82,7 @@ export const Projects = () =>{
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2}></img>
+            <img className="background-image-right" src={colorSharp2} alt="Background design with colorful shapes" />
         </section>
     )
 

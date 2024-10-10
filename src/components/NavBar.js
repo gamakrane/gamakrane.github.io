@@ -2,7 +2,6 @@ import { Navbar, Container, Nav} from "react-bootstrap";
 import { useState, useEffect } from "react";
 import Logo from '../assets/img/Logo.png';
 import nav_icon1 from '../assets/img/nav-icon1.svg';
-import nav_icon2 from '../assets/img/nav-icon2.svg';
 import nav_icon3 from '../assets/img/nav-icon3.svg';
 
 export const NavBar = () => {
@@ -41,9 +40,8 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-                <a href="#"><img src={nav_icon1} alt=""/></a>
-                <a href="#"><img src={nav_icon2} alt=""/></a>
-                <a href="#"><img src={nav_icon3} alt=""/></a>
+                <a href="https://linkedin.com/in/ghada-amakrane"><img src={nav_icon1} alt="linkedin"/></a>
+                <a href="https://gamakrane.github.io/"><img src={nav_icon3} alt="portfolio"/></a>
 
             </div>
           </span>
