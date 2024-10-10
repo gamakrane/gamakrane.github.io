@@ -17,7 +17,7 @@ export const Banner = () =>{
         },delta)
 
         return () => { clearInterval(thicker)};
-    },[text])
+    })
 
     const thick = () => {
         let i = LoopNum % toRotate.length;
@@ -28,7 +28,7 @@ export const Banner = () =>{
         if(isDeleting) {
             setDelta(prevDelta => prevDelta/2)
         }
-        if(!isDeleting && updatedText == fulltext){
+        if(!isDeleting && updatedText === fulltext){
             setIsDeletting(true);
             setDelta(period);
         }else if(isDeleting && updatedText ==="") {
