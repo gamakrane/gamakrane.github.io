@@ -13,14 +13,14 @@ export const Education = () => {
                 logo={Logo_ECM}
                 name="Centrale Méditerranée "
                 years="(2022 - 2025)"
-                major="Mathematics, Computing, Economics"
+                major="Engineering degree Mathematics & Computer Science"
                 city="Marseille, France" 
                 />
                 <SchoolCard 
                 logo={Logo_AIAC}
                 name="Mohammed VI International Academy of Civil Aviation"
                 years="(2021 - 2025)"
-                major="Master of Siences"
+                major="MSc of Electronics & Telecommunications"
                 city="Nouacer, Maroc"
                 />
             </div>
