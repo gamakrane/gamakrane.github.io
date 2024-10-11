@@ -436,7 +436,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Education Css ************/
 .experience-container {
   text-align: center;
-  margin: 20px;
+  padding: 60px 50px;
+  margin-top: -60px;
 }
 
 .schools-columns {
@@ -456,6 +457,32 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .schools-columns {
     flex-direction: column; 
   }
+}
+
+/************ Experience Css ************/
+
+.timeline-title {
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.timeline-title h2{
+  font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.vertical-timeline-element-subtitle{
+  font-size: 15px;
+  font-weight: 200;
+  color: #bdddfc;
+  font-style: italic;
+}
+
+.vertical-timeline-element-title{
+  font-size: 15px;
+  font-weight: 800;
 }
 
 /************ Projects Css ************/
