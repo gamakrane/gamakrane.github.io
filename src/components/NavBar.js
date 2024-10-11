@@ -37,12 +37,12 @@ export const NavBar = () => {
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('skills')}>Skills</Nav.Link> 
             <Nav.Link href="#projects"className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('projects')}>Projects</Nav.Link> 
+            <Nav.Link href="#education"className={activeLink === 'education' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('education')}>Education</Nav.Link> 
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
                 <a href="https://linkedin.com/in/ghada-amakrane"><img src={nav_icon1} alt="linkedin"/></a>
-                <a href="https://gamakrane.github.io/"><img src={nav_icon3} alt="portfolio"/></a>
-
+                <a href="https://gamakrane.github.io/"><img src={nav_icon3} alt="github"/></a>
             </div>
           </span>
         </Navbar.Collapse>

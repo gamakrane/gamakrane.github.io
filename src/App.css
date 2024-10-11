@@ -346,7 +346,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Skills Css ************/
+/************ SkillCard Css ************/
 
 .skill-card {
   background-color: #303030;
@@ -357,9 +357,106 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-card:hover {
-  background-color: #6A89A7; 
+  background-color: #23337f; 
 }
 
+/************ SchoolCard Css ************/
+.school-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.logo-container {
+  border: 1px solid #23337f;
+  width: 150px;
+  height: 150px;
+}
+
+.info-container {
+  position: relative; 
+  /* border: 1px solid #23337f; */
+  width: 450px;
+  height: 150px;
+  overflow: hidden; 
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.info-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0; 
+  background-color: #23337f;
+  transition: width 0.5s ease; 
+  z-index: -1;
+}
+
+.info-container:hover::before {
+  width: 100%; 
+}
+
+.info-container:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.school-logo img {
+  max-width: 150px;
+  height: 50px;
+  height: auto;
+}
+
+.school-name {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.school-name h2 {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.school-name h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.school-name h5 {
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+/************ Education Css ************/
+.experience-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.schools-columns {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  gap: 20px; 
+}
+
+.experience-container h1 {
+	font-size: 45px;
+	font-weight: 700;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .schools-columns {
+    flex-direction: column; 
+  }
+}
 
 /************ Projects Css ************/
 .project {
