@@ -10,15 +10,15 @@ export const Experience = () => {
   ];
 
   const LOCACOEUR_Tasks_Stage = [
-    "Réalistaion d'un cahier de charges d'une application mobile",
-    "Création de tableau de bord dynamiques",
-    "Benchmark et étude de marché"
+    "Drawing up specifications for a mobile application",
+    "Creation of dynamic dashboards",
+    "Benchmarking and market research"
   ];
 
   const ECM_project = [
-    "Préaparation du Dataset",
-    "Entraînement du modèle",
-    "Déploiement"
+    "Dataset preparation",
+    "Model training",
+    "Deployment"
   ];
 
   return (
@@ -26,13 +26,13 @@ export const Experience = () => {
         <div className='timeline-title'>
           <h2>Experience</h2>
         </div>
-          <VerticalTimeline>
+          <VerticalTimeline lineColor='#23337f'>
               <VerticalTimelineElement
                   className="vertical-timeline-element--work"
-                  contentStyle={{ background: '#23337f', color: '#fff' }}
-                  contentArrowStyle={{ borderRight: '2px solid  rgb(33, 150, 243)' }}
+                  contentStyle={{ background: '#23337f', color: '#fff' , borderRight: '4px solid  #bdddfc' }}
+                  contentArrowStyle={{ borderRight: '15px solid  #bdddfc' }}
                   date="SEPT 2023 -  AUG 2024 (12 MONTHS) "
-                  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#23337f' }}
+                  iconStyle={{ background: '#23337f', color: '#fff'}}
               >
                   <h3 className="vertical-timeline-element-title">LOCACOEUR</h3>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: "10px" }}>
@@ -48,10 +48,10 @@ export const Experience = () => {
               </VerticalTimelineElement>
               <VerticalTimelineElement
                   className="vertical-timeline-element--work"
-                  contentStyle={{ background: '#23337f', color: '#fff' }}
-                  contentArrowStyle={{ borderRight: '2px solid  rgb(33, 150, 243)' }}
+                  contentStyle={{ background: '#23337f', color: '#fff',borderLeft: '4px solid  #bdddfc' }}
+                  contentArrowStyle={{ borderRight: '15px solid #bdddfc' }}
                   date="JUN 2023 -  AUG 2023 (3 MONTHS) "
-                  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#23337f' }}
+                  iconStyle={{ background: '#23337f', color: '#23337f' }}
               >
                   <h3 className="vertical-timeline-element-title">LOCACOEUR</h3>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: "10px" }}>
@@ -67,10 +67,10 @@ export const Experience = () => {
               </VerticalTimelineElement>
               <VerticalTimelineElement
                   className="vertical-timeline-element--work"
-                  contentStyle={{ background: '#23337f', color: '#fff' }}
-                  contentArrowStyle={{ borderRight: '2px solid  rgb(33, 150, 243)' }}
+                  contentStyle={{ background: '#23337f', color: '#fff', borderRight: '4px solid  #bdddfc' }}
+                  contentArrowStyle={{ borderRight: '15px solid  #bdddfc' }}
                   date="FEB 2023 -  JUN 2023 (4 MONTHS) "
-                  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#23337f' }}
+                  iconStyle={{ background: '#23337f', color: '#23337f' }}
               >
                   <h3 className="vertical-timeline-element-title">AXYN Robotiques & ECM</h3>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: "10px" }}>
